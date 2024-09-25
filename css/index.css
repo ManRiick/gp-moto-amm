@@ -1,0 +1,56 @@
+footer{
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    overflow: hidden;
+}
+
+header{
+    background-color: #1f1f1f;
+    color: #fff;
+    text-align: center;
+    padding: 1vh;
+    position: relative;
+    top: 0;
+    height: 8vh;
+    width: 100%;
+    overflow: hidden;
+}
+
+#logo{
+    max-height: 3vh;
+}
+
+.navbar{
+    height: 100%;
+    padding: 1vh;
+    display: grid;
+    align-items: center;
+}
+
+.fullscreen {
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    z-index: -1;
+    overflow: hidden; /* Cache les débordements de l'image */
+}
+
+.background{
+    background: no-repeat center center;
+    background-image: url(../img/background_accueil.png);
+    background-size: cover;
+}
+
+.blurify{
+    transition: 0.5s;
+    backdrop-filter: blur(10px);
+}
+
+.blurify:hover {
+    backdrop-filter: blur(0px);
+}
