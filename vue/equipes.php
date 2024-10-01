@@ -33,4 +33,3 @@ require_once('controller/afficher-equipe.php');
         </tbody>
     </table>
 </div>
-
