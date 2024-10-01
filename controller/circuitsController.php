@@ -1,6 +1,6 @@
 <?php
 function connect(){
-    $bdd = 'mysql:host=127.0.0.1;dbname=gp_moto;charset=utf8';
+    $bdd = 'mysql:host=127.0.0.1;dbname=gpmoto;charset=utf8';
     $username = 'projetgit';
     $password = 'projetgit';
     $pdo = new PDO($bdd, $username, $password);
