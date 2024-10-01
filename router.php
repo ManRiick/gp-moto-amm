@@ -11,6 +11,10 @@ switch($page){
     case 'pilotes':
         include("vue/pilotes.php");
         break;
+
+    case 'infoPilot':
+        include("vue/infoPilot.php");
+        break;
     
     case 'courses':
         include("vue/courses.php");
